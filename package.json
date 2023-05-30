@@ -1,6 +1,6 @@
 {
   "name": "@prsm/prettier-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,6 @@
   "dependencies": {
     "@prettier/plugin-xml": "^2.2.0",
     "@trivago/prettier-plugin-sort-imports": "^4.1.1"
-  }
+  },
+  "prettier": "@prsm/prettier-config"
 }
