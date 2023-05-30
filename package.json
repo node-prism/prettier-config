@@ -1,11 +1,11 @@
 {
   "name": "@prsm/prettier-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "release": "bumpp package.json --commit --push --tag && pnpm publish --access public"
+    "release": "bumpp package.json --commit 'Release %s' --push --tag && pnpm publish --access public"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
